@@ -2,7 +2,7 @@
     "tagFormat": "s3proxy-${version}",
     "branches": [
         {
-            "name": "master",
+            "name": "main",
             "prerelease": false
         },
         {

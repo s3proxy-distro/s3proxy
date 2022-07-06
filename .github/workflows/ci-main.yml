@@ -4,13 +4,13 @@ name: Main CI
 on:
   push:
     branches:
-      - "master"
+      - "main"
       - "next"
       - "next-major"
       - "*"
   pull_request:
     branches:
-      - "master"
+      - "main"
       - "next"
       - "next-major"
 jobs:

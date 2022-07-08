@@ -110,3 +110,5 @@ topologySpreadConstraints:
     labelSelector:
       matchLabels:
         app: s3proxy
+
+env: []

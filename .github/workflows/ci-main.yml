@@ -41,6 +41,9 @@ jobs:
             conventional-changelog-conventionalcommits@6.1.0
             @semantic-release/exec@6.0.3  
   runTests:
+    permissions:
+      contents: write
+      issues: write
     runs-on: ubuntu-latest
     needs: [meta]
     steps:

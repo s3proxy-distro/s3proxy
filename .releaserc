@@ -1,5 +1,5 @@
 {
-    "tagFormat": 's3proxy-${version}',
+    "tagFormat": '${version}',
         "branches": [
             {
                 "name": 'master',

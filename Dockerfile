@@ -1,6 +1,8 @@
 FROM docker.io/library/eclipse-temurin:17-jre
 LABEL maintainer="Andrew Gaul <andrew@gaul.org>"
 
+RUN mkdir /data ;\
+    useradd -rm -d /opt/s3proxy -s /bin/sh -u 10001 -U javauser
 WORKDIR /opt/s3proxy
 
 COPY \
